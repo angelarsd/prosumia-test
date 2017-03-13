@@ -1,0 +1,58 @@
+.media-list hr{
+	margin: 0px;
+}
+.media-list li.media{
+	margin: 0px;
+}
+.media-list .onClick{
+	padding: 10px;
+}
+.media-list .onClick:hover{
+	cursor: pointer;
+	background:#F2F2F2;
+}
+header .logo{
+	display: block;
+	margin-left:auto;
+	margin-right: auto;
+	margin-bottom: 15px;
+	margin-top: 10px;
+}
+header.fixed{
+	width: 100%;
+	position: fixed;
+	z-index: 999;
+	background:rgba(255, 255, 255, 0.9);
+	border-bottom:1px #e1e1e1 solid;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+header.fixed .container{
+	position: relative;
+	-webkit-transition: all 0.3s ease-in;
+ 	transition: all 0.3s ease-in;
+}
+header.fixed .logo{
+	position: absolute;
+	left: 15px;
+	top: 0px;
+	width: 192px;
+	height: 40px;
+ 	margin:0px;
+}
+header.fixed .input-group{
+	margin-left: 220px;
+}
+.form-control-clear{
+	pointer-events:auto;
+	right:45px;
+	font-size: 20px;
+	z-index: 999;
+	color:#E63C2E;
+}
+.form-control-clear:hover{
+	cursor: pointer;
+	text-decoration: none;
+}
+.loading{ margin-top:200px;}
+.loading i{ color:#999; margin-bottom: 10px; }
